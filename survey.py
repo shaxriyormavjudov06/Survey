@@ -1,3 +1,15 @@
+import streamlit as st
+
+st.title("Academic Vocabulary & Reading Survey")
+
+menu = st.sidebar.selectbox(
+    "Choose an option",
+    [
+        "Start new survey",
+        "View results",
+        "Export questions"
+    ]
+)
 """
 Academic Vocabulary Building and Reading Comprehension Improvement Scale
 Module: Fundamentals of Programming, 4BUIS008C (Level 4)
